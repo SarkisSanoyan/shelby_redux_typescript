@@ -1,0 +1,392 @@
+$text-color: rgb(74, 71, 71);
+$text-font-size: 1rem;
+$font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+.About {
+    position: relative;
+
+    h2 {
+        color: #fff;
+        text-align: center;
+        font-size: 5rem;
+        font-family: $font-family;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+
+.RatingBars {
+    position: relative;
+
+    h4 {
+        padding: 5rem 0;
+        color: $text-color;
+        font-size: 1.3rem;
+        font-weight: 300;
+        text-align: center;
+        font-family: $font-family;
+        background: rgba(0, 0, 0, 0.1);
+    }
+
+    .bars-box-container {
+        display: flex;
+        position: absolute;
+        width: 80%;
+        top: 35%;
+        left: 10%;
+
+
+        .bars-box {
+            width: 100%;
+
+            .bar {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+
+                h3 {
+                    color: #fff;
+                    font-size: 1.2rem;
+                    font-weight: bold;
+                    font-family: $font-family;
+                    text-align: left;
+                    margin-top: 2rem;
+                    margin-bottom: .5rem;
+                }
+
+                .progress {
+                    width: 600px;
+                    background: #d6d6d6;
+                    opacity: .9;
+
+
+                    .progress-60 {
+                        height: 15px;
+                        width: 60%;
+                        background: -webkit-repeating-linear-gradient(-45deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, 0) 12px), -webkit-linear-gradient(#fff, #fff);
+
+                        -webkit-animation-name: slide;
+                        -moz-animation-name: slide;
+                        -o-animation-name: slide;
+                        animation-name: slide;
+
+                        -webkit-animation-duration: 2s;
+                        -moz-animation-duration: 2s;
+                        -o-animation-duration: 2s;
+                        animation-duration: 2s;
+
+                        -webkit-animation-timing-function: linear;
+                        -moz-animation-timing-function: linear;
+                        -o-animation-timing-function: linear;
+                        animation-timing-function: linear;
+                    }
+
+                    .progress-70 {
+                        height: 15px;
+                        width: 70%;
+                        background: -webkit-repeating-linear-gradient(-45deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, 0) 12px), -webkit-linear-gradient(#fff, #fff);
+
+                        -webkit-animation-name: slide;
+                        -moz-animation-name: slide;
+                        -o-animation-name: slide;
+                        animation-name: slide;
+
+                        -webkit-animation-duration: 2s;
+                        -moz-animation-duration: 2s;
+                        -o-animation-duration: 2s;
+                        animation-duration: 2s;
+
+                        -webkit-animation-timing-function: linear;
+                        -moz-animation-timing-function: linear;
+                        -o-animation-timing-function: linear;
+                        animation-timing-function: linear;
+                    }
+
+                    .progress-75 {
+                        height: 15px;
+                        width: 75%;
+                        background: -webkit-repeating-linear-gradient(-45deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, 0) 12px), -webkit-linear-gradient(#fff, #fff);
+
+                        -webkit-animation-name: slide;
+                        -moz-animation-name: slide;
+                        -o-animation-name: slide;
+                        animation-name: slide;
+
+                        -webkit-animation-duration: 2s;
+                        -moz-animation-duration: 2s;
+                        -o-animation-duration: 2s;
+                        animation-duration: 2s;
+
+                        -webkit-animation-timing-function: linear;
+                        -moz-animation-timing-function: linear;
+                        -o-animation-timing-function: linear;
+                        animation-timing-function: linear;
+                    }
+                }
+
+                .progress-80 {
+                    height: 15px;
+                    width: 80%;
+                    background: -webkit-repeating-linear-gradient(-45deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, 0) 12px), -webkit-linear-gradient(#fff, #fff);
+
+                    -webkit-animation-name: slide;
+                    -moz-animation-name: slide;
+                    -o-animation-name: slide;
+                    animation-name: slide;
+
+                    -webkit-animation-duration: 2s;
+                    -moz-animation-duration: 2s;
+                    -o-animation-duration: 2s;
+                    animation-duration: 2s;
+
+                    -webkit-animation-timing-function: linear;
+                    -moz-animation-timing-function: linear;
+                    -o-animation-timing-function: linear;
+                    animation-timing-function: linear;
+                }
+            }
+
+            .progress-85 {
+                height: 15px;
+                width: 85%;
+                background: -webkit-repeating-linear-gradient(-45deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, 0) 12px), -webkit-linear-gradient(#fff, #fff);
+
+                -webkit-animation-name: slide;
+                -moz-animation-name: slide;
+                -o-animation-name: slide;
+                animation-name: slide;
+
+                -webkit-animation-duration: 2s;
+                -moz-animation-duration: 2s;
+                -o-animation-duration: 2s;
+                animation-duration: 2s;
+
+                -webkit-animation-timing-function: linear;
+                -moz-animation-timing-function: linear;
+                -o-animation-timing-function: linear;
+                animation-timing-function: linear;
+            }
+        }
+
+        .progress-90 {
+            height: 15px;
+            width: 90%;
+            background: -webkit-repeating-linear-gradient(-45deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, 0) 12px), -webkit-linear-gradient(#fff, #fff);
+
+            -webkit-animation-name: slide;
+            -moz-animation-name: slide;
+            -o-animation-name: slide;
+            animation-name: slide;
+
+            -webkit-animation-duration: 2s;
+            -moz-animation-duration: 2s;
+            -o-animation-duration: 2s;
+            animation-duration: 2s;
+
+            -webkit-animation-timing-function: linear;
+            -moz-animation-timing-function: linear;
+            -o-animation-timing-function: linear;
+            animation-timing-function: linear;
+        }
+
+        .progress-55 {
+            height: 15px;
+            width: 55%;
+            background: -webkit-repeating-linear-gradient(-45deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, 0) 12px), -webkit-linear-gradient(#fff, #fff);
+
+            -webkit-animation-name: slide;
+            -moz-animation-name: slide;
+            -o-animation-name: slide;
+            animation-name: slide;
+
+            -webkit-animation-duration: 2s;
+            -moz-animation-duration: 2s;
+            -o-animation-duration: 2s;
+            animation-duration: 2s;
+
+            -webkit-animation-timing-function: linear;
+            -moz-animation-timing-function: linear;
+            -o-animation-timing-function: linear;
+            animation-timing-function: linear;
+        }
+
+
+        @-webkit-keyframes slide {
+            0% {
+                width: 0%;
+            }
+
+            30%,
+            60% {
+                width: 50%;
+            }
+
+            70% {
+                width: 80%;
+            }
+
+            100% {
+                width: 100%;
+            }
+        }
+
+        @-moz-keyframes slide {
+            0% {
+                width: 0%;
+            }
+
+            30%,
+            60% {
+                width: 50%;
+            }
+
+            70% {
+                width: 80%;
+            }
+
+            100% {
+                width: 100%;
+            }
+        }
+
+        @-o-keyframes slide {
+            0% {
+                width: 0%;
+            }
+
+            30%,
+            60% {
+                width: 50%;
+            }
+
+            70% {
+                width: 80%;
+            }
+
+            100% {
+                width: 100%;
+            }
+        }
+
+        @keyframes slide {
+            from {
+                width: 0%;
+            }
+        }
+
+    }
+}
+
+
+@media screen and (max-width: 976px) {
+
+    .HotTours {
+        .hotTours-box {
+            flex-wrap: wrap;
+
+            .hotTours {
+                width: 80%;
+                padding: .5rem 1rem;
+                margin: 3rem 1rem;
+            }
+        }
+    }
+
+    .RatingBars {
+        margin-top: 4rem;
+
+        h4 {
+            padding: 2rem 0;
+            font-size: 1rem;
+        }
+    }
+
+    .Footer {
+        .footer-box {
+            width: 100%;
+
+            img {
+                width: 30%;
+            }
+
+            .footer {
+                h3 {
+                    font-size: 1rem;
+                }
+
+                .info {
+                    p {
+                        font-size: .8rem
+                    }
+
+                    a {
+                        font-size: .8rem;
+                    }
+                }
+            }
+        }
+
+        h4 {
+            font-size: .8rem;
+        }
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+
+    .HotTours {
+        .hotTours-box {
+            flex-wrap: wrap;
+
+            .hotTours {
+                width: 80%;
+                padding: .5rem 1rem;
+                margin: .5rem 1rem;
+            }
+        }
+    }
+
+    .RatingBars {
+        margin-top: 1rem;
+
+        h4 {
+            padding: 1.5rem 0;
+            font-size: 1rem;
+        }
+    }
+
+    .Footer {
+        .footer-box {
+            width: 100%;
+
+            img {
+                width: 30%;
+            }
+
+            .footer {
+                h3 {
+                    font-size: 1rem;
+                }
+
+                .info {
+                    p {
+                        font-size: .8rem
+                    }
+
+                    a {
+                        font-size: .8rem;
+                    }
+                }
+            }
+        }
+
+        h4 {
+            font-size: .8rem;
+        }
+    }
+
+}
