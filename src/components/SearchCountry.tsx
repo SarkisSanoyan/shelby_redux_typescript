@@ -31,7 +31,7 @@ export function SearchCountry({ countries, setSelectedCountry }: IProps) {
                 <ul>
                     {
                         countries
-                            // .filter(country => country.name.toLowerCase().includes(input.toLowerCase()))
+                            .filter(country => country.name.toLowerCase().includes(input.toLowerCase()))
                             .map(country => <li key={country.id} onClick={() => handelClickListItem(country.name)}>
                                 {country.name}
                             </li>)
